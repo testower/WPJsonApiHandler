@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'WPJsonApiHandler' target in the 'WPJsonApiHandler' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "AFJSONRequestOperation.h"
+#endif
