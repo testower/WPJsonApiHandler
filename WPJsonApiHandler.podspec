@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Tom Erik Støwer" => "testower@gmail.com" }
   s.source       = { :git => "https://github.com/testower/WPJsonApiHandler.git", :tag => "0.0.1" }
   s.platform     = :ios, '5.0'
-  s.source_files = 'Classes', 'Classes/*.{h,m}'
+  s.source_files = 'WPJsonApiHandler/*.{h,m}'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 1.1.0'
 end

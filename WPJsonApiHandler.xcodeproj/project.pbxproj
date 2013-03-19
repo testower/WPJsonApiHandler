@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		036D4F164A574DBE9E86D56C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA1CFCD4054483C831A6BC1 /* libPods.a */; };
+		17C282DB16F8F47D00387644 /* WPJsonApiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C282DA16F8F47D00387644 /* WPJsonApiHandler.m */; };
 		17E6861416F8E6B10094B76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E6861316F8E6B10094B76E /* Foundation.framework */; };
-		17E6861916F8E6B10094B76E /* WPJsonApiHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17E6861816F8E6B10094B76E /* WPJsonApiHandler.h */; };
-		17E6861B16F8E6B10094B76E /* WPJsonApiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6861A16F8E6B10094B76E /* WPJsonApiHandler.m */; };
 		17E6862316F8E6B10094B76E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E6862216F8E6B10094B76E /* SenTestingKit.framework */; };
 		17E6862516F8E6B10094B76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E6862416F8E6B10094B76E /* UIKit.framework */; };
 		17E6862616F8E6B10094B76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E6861316F8E6B10094B76E /* Foundation.framework */; };
@@ -36,18 +35,17 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				17E6861916F8E6B10094B76E /* WPJsonApiHandler.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17C282D916F8F47D00387644 /* WPJsonApiHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPJsonApiHandler.h; sourceTree = "<group>"; };
+		17C282DA16F8F47D00387644 /* WPJsonApiHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPJsonApiHandler.m; sourceTree = "<group>"; };
 		17E6861016F8E6B10094B76E /* libWPJsonApiHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWPJsonApiHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6861316F8E6B10094B76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		17E6861716F8E6B10094B76E /* WPJsonApiHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPJsonApiHandler-Prefix.pch"; sourceTree = "<group>"; };
-		17E6861816F8E6B10094B76E /* WPJsonApiHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPJsonApiHandler.h; sourceTree = "<group>"; };
-		17E6861A16F8E6B10094B76E /* WPJsonApiHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPJsonApiHandler.m; sourceTree = "<group>"; };
 		17E6862116F8E6B10094B76E /* WPJsonApiHandlerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPJsonApiHandlerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E6862216F8E6B10094B76E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		17E6862416F8E6B10094B76E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -117,8 +115,8 @@
 		17E6861516F8E6B10094B76E /* WPJsonApiHandler */ = {
 			isa = PBXGroup;
 			children = (
-				17E6861816F8E6B10094B76E /* WPJsonApiHandler.h */,
-				17E6861A16F8E6B10094B76E /* WPJsonApiHandler.m */,
+				17C282D916F8F47D00387644 /* WPJsonApiHandler.h */,
+				17C282DA16F8F47D00387644 /* WPJsonApiHandler.m */,
 				17E6861616F8E6B10094B76E /* Supporting Files */,
 			);
 			path = WPJsonApiHandler;
@@ -264,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E6861B16F8E6B10094B76E /* WPJsonApiHandler.m in Sources */,
+				17C282DB16F8F47D00387644 /* WPJsonApiHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
