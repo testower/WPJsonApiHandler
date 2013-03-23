@@ -68,9 +68,15 @@
 #pragma mark -
 #pragma mark API methods
 
-- (void)getPostWithId:(NSString *)id
+- (void)getPostWithId:(NSString *)postId
 {
-    NSString *resource = [NSString stringWithFormat:@"/posts/%@", id];
+    NSString *resource = [NSString stringWithFormat:@"/posts/%@", postId];
+    [self makeAPIRequestWithResource:resource];
+}
+
+- (void)getPostWithSlug:(NSString *)slug
+{
+    NSString *resource = [NSString stringWithFormat:@"/posts/slug:%@", slug];
     [self makeAPIRequestWithResource:resource];
 }
 @end

@@ -47,6 +47,7 @@
 #pragma mark -
 #pragma mark API methods
 
-- (void)getPostWithId:(NSString *)id;
+- (void)getPostWithId:(NSString *)postId;
+- (void)getPostWithSlug:(NSString *)slug;
 
 @end
